@@ -1,0 +1,15 @@
+header{
+    position: relative;
+
+    height: 80px;
+    z-index: 99;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #fff solid 1px;
+
+    background-color: #000000;
+    opacity: 0.9;
+}

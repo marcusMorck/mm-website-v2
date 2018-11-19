@@ -1,0 +1,79 @@
+header {
+  position: relative;
+  height: 80px;
+  z-index: 99;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: #fff solid 1px;
+  background-color: #000000;
+  opacity: 0.9;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, p {
+  margin: 0px;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+.main-nav a:hover, .main-nav a:active {
+  border-bottom: 2px #04046e solid;
+}
+
+.hero-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.hero-video-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.hero-video-wrapper .hero-video-content {
+  color: #f1f1f1;
+  width: 80%;
+  padding: 20px;
+}
+.hero-video-wrapper .hero-video-content h1 {
+  font-weight: bolder;
+  font-size: 52px;
+}
+.hero-video-wrapper .hero-video-content .location {
+  font-size: 26px;
+  margin-bottom: 40px;
+  border-bottom: 4px solid rgba(25, 25, 118, 0.617);
+  padding: 0 0 10px 5px;
+  margin-bottom: 40px;
+}
+.hero-video-wrapper .hero-video-content p {
+  margin-bottom: 20px;
+}
+.hero-video-wrapper .hero-video-content img {
+  margin-top: 20px;
+  border-radius: 90px;
+}
+
+html {
+  font-family: "Work Sans", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
