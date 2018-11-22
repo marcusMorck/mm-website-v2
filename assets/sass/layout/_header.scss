@@ -1,6 +1,5 @@
 header{
-    position: relative;
-
+    position: absolute;
     height: 80px;
     z-index: 99;
     overflow: hidden;
@@ -9,7 +8,6 @@ header{
     align-items: center;
     justify-content: space-between;
     border-bottom: #fff solid 1px;
-
     background-color: #000000;
     opacity: 0.9;
 }

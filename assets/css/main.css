@@ -1,5 +1,8 @@
+/*------------------------------
+--------------Layout------------
+------------------------------*/
 header {
-  position: relative;
+  position: absolute;
   height: 80px;
   z-index: 99;
   overflow: hidden;
@@ -12,6 +15,21 @@ header {
   opacity: 0.9;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  color: #fff;
+  height: 60px;
+}
+footer .copyright {
+  font-size: 12px;
+  padding: 15px;
+}
+
+/*------------------------------
+--------------Base--------------
+------------------------------*/
 html, body {
   margin: 0;
   padding: 0;
@@ -21,6 +39,12 @@ h1, p {
   margin: 0px;
 }
 
+/*------------------------------
+-------------Components---------
+------------------------------*/
+.logo {
+  margin-left: 15px;
+}
 .logo a {
   color: #fff;
   text-decoration: none;
@@ -47,6 +71,7 @@ h1, p {
 .hero-video-wrapper {
   display: flex;
   justify-content: center;
+  margin-top: 60px;
 }
 .hero-video-wrapper .hero-video-content {
   color: #f1f1f1;
@@ -56,24 +81,43 @@ h1, p {
 .hero-video-wrapper .hero-video-content h1 {
   font-weight: bolder;
   font-size: 52px;
+  margin-top: 20px;
 }
 .hero-video-wrapper .hero-video-content .location {
   font-size: 26px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   border-bottom: 4px solid rgba(25, 25, 118, 0.617);
   padding: 0 0 10px 5px;
-  margin-bottom: 40px;
 }
 .hero-video-wrapper .hero-video-content p {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
-.hero-video-wrapper .hero-video-content img {
+.hero-video-wrapper .hero-video-content .profile-img {
+  display: flex;
+  justify-content: center;
+}
+.hero-video-wrapper .hero-video-content .profile-img img {
   margin-top: 20px;
-  border-radius: 90px;
+  border-radius: 100%;
+}
+.hero-video-wrapper .hero-video-content .test {
+  height: 200px;
+  width: 20px;
+  background-color: blue;
 }
 
 html {
   font-family: "Work Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
 }
 
 /*# sourceMappingURL=main.css.map */

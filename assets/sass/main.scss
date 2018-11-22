@@ -1,14 +1,31 @@
-@import 'header.scss';
+/*------------------------------
+--------------Layout------------
+------------------------------*/
+@import 'layout/header.scss';
+@import 'layout/footer';
+/*------------------------------
+--------------Base--------------
+------------------------------*/
+@import 'base/reset.scss'; 
+/*------------------------------
+-------------Components---------
+------------------------------*/
+@import 'components/logo.scss';
+@import 'components/main-navigation';
+@import 'components/hero-video';
 
-@import 'reset.scss'; 
-
-@import 'logo.scss';
-
-@import 'main-navigation';
-
-@import 'hero-video';
 
 html{
 
 font-family: 'Work Sans', sans-serif;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main{
+    flex: 1;
+}
+    
